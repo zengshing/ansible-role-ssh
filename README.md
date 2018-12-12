@@ -34,3 +34,4 @@ Contributing to the role
 In order to keep the code clean, pushing changes to the master branch has been disabled. If you want to contribute, you have to create a branch, upload your changes and then create a pull request.  
 Thanks
 # ansible-role-ssh
+# ansible-role-ssh
