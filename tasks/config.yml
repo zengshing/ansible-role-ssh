@@ -1,0 +1,7 @@
+---
+
+- name: Reconfigure sshd
+  template:
+    src: "{{ ansible_distribution|lower}}"_sshd_config.j2
+    dest: /etc/ssh/sshd_config
+  notify: restart sshd

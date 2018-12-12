@@ -1,4 +1,14 @@
 ---
+# Type of node to install: front or wn
+ssh_type_of_node: front
+# Default ssh user
+ssh_user: steve
 
-setuptool_version: "39.1.0"
-setuptool_package: "setuptools-39.1.0.zip"
+ssh_login_grace_time: 30
+ssh_permit_root_login: "yes"
+ssh_max_auth_tries: 3
+ssh_password_authentication: "yes"
+ssh_listen_port: 22
+ssh_listen_address: 0.0.0.0
+ssh_client_alive_interval: 60
+ssh_client_alive_countmax: 3

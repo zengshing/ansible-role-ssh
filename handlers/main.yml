@@ -1,2 +1,8 @@
 ---
 # handlers file for demo
+
+- name: restart sshd
+  service:
+    name: {{ ssh_daemon }}
+    state: restarted
+    enabled: true
